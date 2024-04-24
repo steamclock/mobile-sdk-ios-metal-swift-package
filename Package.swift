@@ -18,7 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CartoMobileSDK",
-            url: "https://steamclock-public.s3.ca-central-1.amazonaws.com/carto-sdk/carto-sdk-ios-metal-4.4.7-rc1.zip"
+            url: "https://steamclock-public.s3.ca-central-1.amazonaws.com/carto-sdk/carto-sdk-ios-metal-4.4.7-rc1.zip",
+            checksum: "f1c16381edf9102a9de7454dacc7634baab345384f02d229f31a1187528bb2"
         )
     ]
 )
